@@ -1,0 +1,174 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #c0e2f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+.intro
+{
+  color: black;
+ font-family:'Times New Roman', Times, serif; 
+ padding: 100px 80px;
+text-align: center;
+}
+
+
+header {
+
+  text-align: center;
+  padding: 100px 0;
+}
+
+.card {
+  border:  2px solid transparent;
+  border-radius: 8px;
+  transition: box-shadow 0.3s,  box-shadow 0.3s ;
+}
+
+.card:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+.bg-light {
+  background-color: #f8f9fa; 
+}
+
+
+@media (max-width: 768px) {
+  header {
+      padding: 80px 0;
+  }
+  .card {
+      text-align: center;
+  }
+}
+
+.navbar-expand-lg {
+  background-color: #134983; 
+}
+
+
+.navbar .navbar-nav .nav-link {
+  color: #fff; 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #fff; 
+}
+
+.navbar-toggler-icon {
+  color: #fff; 
+}
+.navbar-brand
+{
+  color: #fff;
+}
+
+.square-photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -350px;
+}
+@media (max-width: 576px) {
+  .square-photos {
+    margin-bottom: -450px;
+  }
+}
+.square-photo {
+  width: 800px; 
+  height: 1000px;
+  margin: 0 -400px; 
+  overflow: hidden; 
+}
+
+.square-photo img {
+  width: 100%;  
+  height: auto; 
+}
+
+.introduction-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.introduction-content {
+  max-width: 800px;
+  margin-top: 80px;
+}
+
+@media (min-width: 768px) {
+  .introduction-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .introduction-content {
+    margin-bottom: 0;
+    margin-left: 20px;  }
+}
+.introduction
+{
+  border-style: groove;
+}
+.card-img-top {
+  object-fit: cover;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px; 
+  
+}
+
+
+.bg-blue {
+  background-color: #134983;
+}
+
+.text-white {
+  color: #fff; 
+}
+
+@media (max-width: 576px) {
+  .bg-blue {
+    padding: 40px 0; 
+  }
+}
